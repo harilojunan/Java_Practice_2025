@@ -18,7 +18,8 @@ public class StreamStringFrequency {
 		System.out.println(freq);
 		
 		//Method 2
-		Map<String, Long> map = Arrays.stream(str.split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+		Map<String, Long> map = Arrays.stream(str.split(""))
+				.collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
 		
 		System.out.println(map);
 		
