@@ -37,9 +37,8 @@ public class StreamIntermediateOperations {
 		
 //		4
 //		distinct() - to remove duplicate elements from the stream
-		List<Integer> distinctNumbers = unsortedNumber.stream().distinct().sorted().collect(Collectors.toList());
-		distinctNumbers.stream().forEach(System.out::println);
-		
+		List<Integer> distinctNumbers = unsortedNumber.stream().distinct().collect(Collectors.toList());
+		distinctNumbers.stream().forEach(System.out::println);	
 
 	}
 
