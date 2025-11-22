@@ -12,7 +12,7 @@ class CounterTest {
 	}
 }
 
-public class Sysnchronization_test {
+public class Synchronization_test {
 
 	public static void main(String[] args) throws InterruptedException {
 		CounterTest counter = new CounterTest();
