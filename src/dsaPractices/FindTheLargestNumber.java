@@ -24,7 +24,7 @@ public class FindTheLargestNumber {
 			if(num[i] > large)
 				large = num[i];
 		}
-		System.out.println("Large number : "+large);
+		System.out.println("Large number : "+large );
 	}
 
 }
