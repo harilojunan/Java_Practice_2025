@@ -13,7 +13,7 @@ public class Main {
 		e2.id = 1;
 		e2.name = "Hari";
 		
-//		System.out.println(e1.equals(e2));
+		System.out.println(e1.equals(e2));
 		
 		int expectedSize = 5;
 		int capacity = (int)( expectedSize / 0.75f);
